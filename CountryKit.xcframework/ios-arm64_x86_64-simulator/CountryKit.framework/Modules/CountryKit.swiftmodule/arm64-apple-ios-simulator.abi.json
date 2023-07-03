@@ -1,0 +1,611 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CountryKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CountryKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "countryCodeWithIPAddress",
+        "printedName": "countryCodeWithIPAddress()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.String?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:10CountryKit24countryCodeWithIPAddressSSSgyYaF",
+        "mangledName": "$s10CountryKit24countryCodeWithIPAddressSSSgyYaF",
+        "moduleName": "CountryKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CountryKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "CountryKit"
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkExtension",
+        "printedName": "NetworkExtension",
+        "declKind": "Import",
+        "moduleName": "CountryKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CountryKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CountryMonitor",
+        "printedName": "CountryMonitor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CountryMonitor",
+                "printedName": "CountryKit.CountryMonitor",
+                "usr": "s:10CountryKit0A7MonitorC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CountryKit0A7MonitorC6sharedACvpZ",
+            "mangledName": "$s10CountryKit0A7MonitorC6sharedACvpZ",
+            "moduleName": "CountryKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CountryMonitor",
+                    "printedName": "CountryKit.CountryMonitor",
+                    "usr": "s:10CountryKit0A7MonitorC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CountryKit0A7MonitorC6sharedACvgZ",
+                "mangledName": "$s10CountryKit0A7MonitorC6sharedACvgZ",
+                "moduleName": "CountryKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startMonitoring",
+            "printedName": "startMonitoring()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CountryKit0A7MonitorC15startMonitoringyyF",
+            "mangledName": "$s10CountryKit0A7MonitorC15startMonitoringyyF",
+            "moduleName": "CountryKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopMonitoring",
+            "printedName": "stopMonitoring()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CountryKit0A7MonitorC14stopMonitoringyyF",
+            "mangledName": "$s10CountryKit0A7MonitorC14stopMonitoringyyF",
+            "moduleName": "CountryKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10CountryKit0A7MonitorC",
+        "mangledName": "$s10CountryKit0A7MonitorC",
+        "moduleName": "CountryKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CountryKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CountryKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CountryKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Name",
+        "printedName": "Name",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "countryCode",
+            "printedName": "countryCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea10CountryKitE11countryCodeABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea10CountryKitE11countryCodeABvpZ",
+            "moduleName": "CountryKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea10CountryKitE11countryCodeABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea10CountryKitE11countryCodeABvgZ",
+                "moduleName": "CountryKit",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@T@NSNotificationName",
+        "moduleName": "Foundation",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "Sendable"
+        ],
+        "isFromExtension": true,
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_SwiftNewtypeWrapper",
+            "printedName": "_SwiftNewtypeWrapper",
+            "usr": "s:s20_SwiftNewtypeWrapperP",
+            "mangledName": "$ss20_SwiftNewtypeWrapperP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/IPMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 6,
+      "value": "\"CL_1\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/IPMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 280,
+      "length": 15,
+      "value": "\"https:\/\/ip.me\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/IPMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 501,
+      "length": 55,
+      "value": "\"<th>County Code:<\/th>\\s*<td><code>(\\w+)<\/code><\/td>\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/IPMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 587,
+      "length": 21,
+      "value": "\"<code>(\\w+)<\/code>\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/IPMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 891,
+      "length": 8,
+      "value": "\"<code>\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/IPMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 907,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/IPMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 957,
+      "length": 9,
+      "value": "\"<\/code>\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/IPMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 974,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
+      "kind": "StringLiteral",
+      "offset": 269,
+      "length": 75,
+      "value": "\"https:\/\/raw.githubusercontent.com\/L18\/CCKitConfiguration\/main\/config.json\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1164,
+      "length": 37,
+      "value": "\"JSON saved to file: \""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1200,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1241,
+      "length": 39,
+      "value": "\"Failed to save JSON to file: \""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1279,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1725,
+      "length": 71,
+      "value": "\"GET COUNTRY CODE FROM \""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1768,
+      "length": 4,
+      "value": "\" with value: \""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1795,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 36,
+      "value": "\"dev.l18.kit.countrykit.countrycode\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 774,
+      "length": 39,
+      "value": "\"dev.l18.kit.countrykit.countrymonitor\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 875,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 2098,
+      "length": 21,
+      "value": "\"Network Unavailable\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2319,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/SSENSEClient.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 6,
+      "value": "\"CL_4\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/SSENSEClient.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 41,
+      "value": "\"https:\/\/www.ssense.com\/api\/country.json\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/IPAPIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 6,
+      "value": "\"CL_3\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/IPAPIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 49,
+      "value": "\"http:\/\/ip-api.com\/json?fields=countryCode,query\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/IPAPIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 521,
+      "length": 23,
+      "value": "\"Response : \""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/IPAPIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 543,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/MyIPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 175,
+      "length": 6,
+      "value": "\"CL_2\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/MyIPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 264,
+      "length": 22,
+      "value": "\"https:\/\/api.myip.com\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/MyIPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 602,
+      "length": 23,
+      "value": "\"Response : \""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/MyIPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 624,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/MyIPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 698,
+      "length": 4,
+      "value": "\"XX\""
+    }
+  ]
+}

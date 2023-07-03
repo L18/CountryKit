@@ -1,0 +1,11 @@
+framework module CountryKit {
+  umbrella header "CountryKit.h"
+
+  export *
+  module * { export * }
+}
+
+module CountryKit.Swift {
+  header "CountryKit-Swift.h"
+  requires objc
+}
