@@ -10,8 +10,16 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+public struct CountryStatistics {
+  public let clientIdentifier: Swift.String
+  public let lastUpdate: Foundation.Date
+}
+public struct CountryCode {
+  public let countryCode: Swift.String
+  public let statistics: CountryKit.CountryStatistics
+}
 #if compiler(>=5.3) && $AsyncAwait
-public func countryCodeWithIPAddress() async -> Swift.String?
+public func countryCodeWithIPAddress() async -> CountryKit.CountryCode?
 #endif
 extension Foundation.NSNotification.Name {
   public static let countryCode: Foundation.Notification.Name

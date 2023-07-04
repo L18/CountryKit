@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/CountryKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Wg/JcJcS7gvDW2WGmOdUc48c9Ns=
+		ioNPreFf1WBiPsCRssq4dsOOlI4=
 		</data>
 		<key>Modules/CountryKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		AKivHJKQK9cEMqLWNtKmIDMgvTI=
+		KCnzefB4itYi3K1FqtB/1K26RGU=
 		</data>
 		<key>Modules/CountryKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4P8dEbOS3S+Na8aELQJkisnslxg=
+		VnP4ShYKppYmBhMG1C6Gewbjnt4=
 		</data>
 		<key>Modules/CountryKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		AKivHJKQK9cEMqLWNtKmIDMgvTI=
+		KCnzefB4itYi3K1FqtB/1K26RGU=
 		</data>
 		<key>Modules/CountryKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		s7B3AeBxTGJu+dJXnO0c4x1LGw0=
+		C7ESDf9/891bQISi+ptjN+cLFNo=
 		</data>
 		<key>Modules/CountryKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Wg/JcJcS7gvDW2WGmOdUc48c9Ns=
+		ioNPreFf1WBiPsCRssq4dsOOlI4=
 		</data>
 		<key>Modules/CountryKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		h/4UXJajXV9e0R+AcaBmAJKNEXk=
+		qBJQqNC4fTT+LKpiUKQU8I8rp/A=
 		</data>
 		<key>Modules/CountryKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ENfDDAzpUJ79k02jEJP6C/hOcEs=
+		DwtOniCJHrqMQy60qqJuHHN7R6I=
 		</data>
 		<key>Modules/CountryKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		h/4UXJajXV9e0R+AcaBmAJKNEXk=
+		qBJQqNC4fTT+LKpiUKQU8I8rp/A=
 		</data>
 		<key>Modules/CountryKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MnPYXCPGmP0S9mZnAvRiuVbewrM=
+		h38vjRR08e3LFEFKQ49z0Lpkc24=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dcSITTM5cXGX5wJExVzxrwQ6jpirIbGIfqFYJaIYS7U=
+			fwTvbcye+YA5gXNzOG/bSYBmLPGYrahNK6cC+BwS/DA=
 			</data>
 		</dict>
 		<key>Modules/CountryKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hyq7bLEB6U25a9K7S984D2lFdZBlxTwvjo0zBo3tgAU=
+			ztJ8krCLTqA9Gg+lRVnONGe+D0M5sSWZ1xEmdMNpqXA=
 			</data>
 		</dict>
 		<key>Modules/CountryKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tb2qIsZCvSN1wHA/Q2vCJj35dD5k35OsHiOmoWUFizw=
+			15SfrZuCK96yHThSrwW11UZRzqca+7FHW6K5S25rbw4=
 			</data>
 		</dict>
 		<key>Modules/CountryKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hyq7bLEB6U25a9K7S984D2lFdZBlxTwvjo0zBo3tgAU=
+			ztJ8krCLTqA9Gg+lRVnONGe+D0M5sSWZ1xEmdMNpqXA=
 			</data>
 		</dict>
 		<key>Modules/CountryKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H6Q9C+NigDNS8nbA4C4LnjgDaao6sqIbqfdfcNn5Stg=
+			J6vhNQ7eSFp0gQLebIXpPIApHh2lViGq4E85RL7lvEE=
 			</data>
 		</dict>
 		<key>Modules/CountryKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dcSITTM5cXGX5wJExVzxrwQ6jpirIbGIfqFYJaIYS7U=
+			fwTvbcye+YA5gXNzOG/bSYBmLPGYrahNK6cC+BwS/DA=
 			</data>
 		</dict>
 		<key>Modules/CountryKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SpvmsKn2GXLO2/CwzDc6wjMbIWpUZhQsf2h1VxhzQdk=
+			F9OLJ1V0NrdOyQJnQo+l/2ibwcSG+hngRqmaeEc3wIA=
 			</data>
 		</dict>
 		<key>Modules/CountryKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WsMicC0fo5MYuKrL84BkZuDdmnSMPOa0zL9PMXe9UWA=
+			F0hy03a7shNucrXtNmqwduXwaxwLo9RVTfIeAt9DZB4=
 			</data>
 		</dict>
 		<key>Modules/CountryKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SpvmsKn2GXLO2/CwzDc6wjMbIWpUZhQsf2h1VxhzQdk=
+			F9OLJ1V0NrdOyQJnQo+l/2ibwcSG+hngRqmaeEc3wIA=
 			</data>
 		</dict>
 		<key>Modules/CountryKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z4AJKVsuwzDTOFiHEL7SY4FY4HxIdj7STgd9TEPV1Dc=
+			aSC/LhFVqecmRN/yJ3wErcUy7KGRURp29O8w/I5Qub0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

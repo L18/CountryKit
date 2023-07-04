@@ -25,14 +25,24 @@
         ]
       },
       {
-        "kind": "Function",
-        "name": "countryCodeWithIPAddress",
-        "printedName": "countryCodeWithIPAddress()",
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CountryKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CountryStatistics",
+        "printedName": "CountryStatistics",
         "children": [
           {
-            "kind": "TypeNominal",
-            "name": "Optional",
-            "printedName": "Swift.String?",
+            "kind": "Var",
+            "name": "clientIdentifier",
+            "printedName": "clientIdentifier",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -41,12 +51,216 @@
                 "usr": "s:SS"
               }
             ],
+            "declKind": "Var",
+            "usr": "s:10CountryKit0A10StatisticsV16clientIdentifierSSvp",
+            "mangledName": "$s10CountryKit0A10StatisticsV16clientIdentifierSSvp",
+            "moduleName": "CountryKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CountryKit0A10StatisticsV16clientIdentifierSSvg",
+                "mangledName": "$s10CountryKit0A10StatisticsV16clientIdentifierSSvg",
+                "moduleName": "CountryKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastUpdate",
+            "printedName": "lastUpdate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CountryKit0A10StatisticsV10lastUpdate10Foundation4DateVvp",
+            "mangledName": "$s10CountryKit0A10StatisticsV10lastUpdate10Foundation4DateVvp",
+            "moduleName": "CountryKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CountryKit0A10StatisticsV10lastUpdate10Foundation4DateVvg",
+                "mangledName": "$s10CountryKit0A10StatisticsV10lastUpdate10Foundation4DateVvg",
+                "moduleName": "CountryKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10CountryKit0A10StatisticsV",
+        "mangledName": "$s10CountryKit0A10StatisticsV",
+        "moduleName": "CountryKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CountryCode",
+        "printedName": "CountryCode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "countryCode",
+            "printedName": "countryCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CountryKit0A4CodeV07countryC0SSvp",
+            "mangledName": "$s10CountryKit0A4CodeV07countryC0SSvp",
+            "moduleName": "CountryKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CountryKit0A4CodeV07countryC0SSvg",
+                "mangledName": "$s10CountryKit0A4CodeV07countryC0SSvg",
+                "moduleName": "CountryKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statistics",
+            "printedName": "statistics",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CountryStatistics",
+                "printedName": "CountryKit.CountryStatistics",
+                "usr": "s:10CountryKit0A10StatisticsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CountryKit0A4CodeV10statisticsAA0A10StatisticsVvp",
+            "mangledName": "$s10CountryKit0A4CodeV10statisticsAA0A10StatisticsVvp",
+            "moduleName": "CountryKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CountryStatistics",
+                    "printedName": "CountryKit.CountryStatistics",
+                    "usr": "s:10CountryKit0A10StatisticsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CountryKit0A4CodeV10statisticsAA0A10StatisticsVvg",
+                "mangledName": "$s10CountryKit0A4CodeV10statisticsAA0A10StatisticsVvg",
+                "moduleName": "CountryKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10CountryKit0A4CodeV",
+        "mangledName": "$s10CountryKit0A4CodeV",
+        "moduleName": "CountryKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "countryCodeWithIPAddress",
+        "printedName": "countryCodeWithIPAddress()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "CountryKit.CountryCode?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CountryCode",
+                "printedName": "CountryKit.CountryCode",
+                "usr": "s:10CountryKit0A4CodeV"
+              }
+            ],
             "usr": "s:Sq"
           }
         ],
         "declKind": "Func",
-        "usr": "s:10CountryKit24countryCodeWithIPAddressSSSgyYaF",
-        "mangledName": "$s10CountryKit24countryCodeWithIPAddressSSSgyYaF",
+        "usr": "s:10CountryKit24countryCodeWithIPAddressAA0aD0VSgyYaF",
+        "mangledName": "$s10CountryKit24countryCodeWithIPAddressAA0aD0VSgyYaF",
         "moduleName": "CountryKit",
         "declAttributes": [
           "AccessControl",
@@ -377,6 +591,41 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/Helpers\/ConfigurationHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 75,
+      "value": "\"https:\/\/raw.githubusercontent.com\/L18\/CCKitConfiguration\/main\/config.json\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/Helpers\/ConfigurationHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1113,
+      "length": 37,
+      "value": "\"JSON saved to file: \""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/Helpers\/ConfigurationHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1149,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/Helpers\/ConfigurationHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1190,
+      "length": 39,
+      "value": "\"Failed to save JSON to file: \""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/Helpers\/ConfigurationHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1228,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryClient\/IPMeClient.swift",
       "kind": "StringLiteral",
       "offset": 174,
@@ -435,56 +684,21 @@
     {
       "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
       "kind": "StringLiteral",
-      "offset": 269,
-      "length": 75,
-      "value": "\"https:\/\/raw.githubusercontent.com\/L18\/CCKitConfiguration\/main\/config.json\""
-    },
-    {
-      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
-      "kind": "StringLiteral",
-      "offset": 1164,
-      "length": 37,
-      "value": "\"JSON saved to file: \""
-    },
-    {
-      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
-      "kind": "StringLiteral",
-      "offset": 1200,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
-      "kind": "StringLiteral",
-      "offset": 1241,
-      "length": 39,
-      "value": "\"Failed to save JSON to file: \""
-    },
-    {
-      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
-      "kind": "StringLiteral",
-      "offset": 1279,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
-      "kind": "StringLiteral",
-      "offset": 1725,
+      "offset": 791,
       "length": 71,
       "value": "\"GET COUNTRY CODE FROM \""
     },
     {
       "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
       "kind": "StringLiteral",
-      "offset": 1768,
+      "offset": 834,
       "length": 4,
       "value": "\" with value: \""
     },
     {
       "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
       "kind": "StringLiteral",
-      "offset": 1795,
+      "offset": 861,
       "length": 2,
       "value": "\"\""
     },
