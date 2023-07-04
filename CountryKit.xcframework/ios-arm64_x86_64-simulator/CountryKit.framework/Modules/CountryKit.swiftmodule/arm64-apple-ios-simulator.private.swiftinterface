@@ -10,6 +10,8 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import os.log
+import os
 public struct CountryStatistics {
   public let clientIdentifier: Swift.String
   public let lastUpdate: Foundation.Date

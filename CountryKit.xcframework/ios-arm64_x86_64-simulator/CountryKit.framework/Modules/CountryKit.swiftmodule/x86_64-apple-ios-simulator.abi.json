@@ -35,6 +35,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "CountryKit"
+      },
+      {
         "kind": "TypeDecl",
         "name": "CountryStatistics",
         "printedName": "CountryStatistics",
@@ -684,23 +691,23 @@
     {
       "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
       "kind": "StringLiteral",
-      "offset": 791,
-      "length": 71,
-      "value": "\"GET COUNTRY CODE FROM \""
+      "offset": 169,
+      "length": 29,
+      "value": "\"dev.l18.kit.countrykit.logs\""
     },
     {
       "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
       "kind": "StringLiteral",
-      "offset": 834,
-      "length": 4,
-      "value": "\" with value: \""
+      "offset": 210,
+      "length": 12,
+      "value": "\"CountryKit\""
     },
     {
       "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryKit.swift",
       "kind": "StringLiteral",
-      "offset": 861,
-      "length": 2,
-      "value": "\"\""
+      "offset": 933,
+      "length": 57,
+      "value": "\"GET COUNTRY CODE FROM %{PUBLIC}@ with value: %{PUBLIC}@\""
     },
     {
       "filePath": "\/Users\/laurent\/Developer\/lgaches\/CountryKit\/CountryKit\/CountryMonitor.swift",
